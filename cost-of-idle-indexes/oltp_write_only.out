@@ -1,0 +1,798 @@
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           230872
+        other:                           115436
+        total:                           346308
+    transactions:                        57718  (480.97 per sec.)
+    queries:                             346308 (2885.85 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0007s
+    total number of events:              57718
+
+Latency (ms):
+         min:                                    0.94
+         avg:                                    2.08
+         max:                                  848.79
+         95th percentile:                        3.19
+         sum:                               119852.85
+
+Threads fairness:
+    events (avg/stddev):           57718.0000/0.00
+    execution time (avg/stddev):   119.8529/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           142440
+        other:                           71220
+        total:                           213660
+    transactions:                        35610  (296.74 per sec.)
+    queries:                             213660 (1780.44 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0029s
+    total number of events:              35610
+
+Latency (ms):
+         min:                                    1.09
+         avg:                                    3.37
+         max:                                  854.34
+         95th percentile:                        5.77
+         sum:                               119887.53
+
+Threads fairness:
+    events (avg/stddev):           35610.0000/0.00
+    execution time (avg/stddev):   119.8875/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           113236
+        other:                           56618
+        total:                           169854
+    transactions:                        28309  (235.90 per sec.)
+    queries:                             169854 (1415.40 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0028s
+    total number of events:              28309
+
+Latency (ms):
+         min:                                    1.20
+         avg:                                    4.24
+         max:                                  930.34
+         95th percentile:                        9.22
+         sum:                               119908.85
+
+Threads fairness:
+    events (avg/stddev):           28309.0000/0.00
+    execution time (avg/stddev):   119.9088/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           89896
+        other:                           44948
+        total:                           134844
+    transactions:                        22474  (187.28 per sec.)
+    queries:                             134844 (1123.67 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0010s
+    total number of events:              22474
+
+Latency (ms):
+         min:                                    1.32
+         avg:                                    5.34
+         max:                                 1553.00
+         95th percentile:                       12.75
+         sum:                               119926.88
+
+Threads fairness:
+    events (avg/stddev):           22474.0000/0.00
+    execution time (avg/stddev):   119.9269/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           78360
+        other:                           39180
+        total:                           117540
+    transactions:                        19590  (163.06 per sec.)
+    queries:                             117540 (978.36 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.1384s
+    total number of events:              19590
+
+Latency (ms):
+         min:                                    1.46
+         avg:                                    6.13
+         max:                                 1194.21
+         95th percentile:                       15.83
+         sum:                               120074.02
+
+Threads fairness:
+    events (avg/stddev):           19590.0000/0.00
+    execution time (avg/stddev):   120.0740/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           65724
+        other:                           32862
+        total:                           98586
+    transactions:                        16431  (136.92 per sec.)
+    queries:                             98586  (821.52 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0034s
+    total number of events:              16431
+
+Latency (ms):
+         min:                                    1.57
+         avg:                                    7.30
+         max:                                 1522.72
+         95th percentile:                       19.65
+         sum:                               119946.95
+
+Threads fairness:
+    events (avg/stddev):           16431.0000/0.00
+    execution time (avg/stddev):   119.9470/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           53960
+        other:                           26980
+        total:                           80940
+    transactions:                        13490  (112.39 per sec.)
+    queries:                             80940  (674.35 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0259s
+    total number of events:              13490
+
+Latency (ms):
+         min:                                    1.66
+         avg:                                    8.89
+         max:                                 1808.71
+         95th percentile:                       23.52
+         sum:                               119980.49
+
+Threads fairness:
+    events (avg/stddev):           13490.0000/0.00
+    execution time (avg/stddev):   119.9805/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           244540
+        other:                           122270
+        total:                           366810
+    transactions:                        61135  (509.45 per sec.)
+    queries:                             366810 (3056.68 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0013s
+    total number of events:              61135
+
+Latency (ms):
+         min:                                    0.92
+         avg:                                    1.96
+         max:                                   29.12
+         95th percentile:                        3.19
+         sum:                               119834.90
+
+Threads fairness:
+    events (avg/stddev):           61135.0000/0.00
+    execution time (avg/stddev):   119.8349/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           143840
+        other:                           71920
+        total:                           215760
+    transactions:                        35960  (299.09 per sec.)
+    queries:                             215760 (1794.53 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.2308s
+    total number of events:              35960
+
+Latency (ms):
+         min:                                    1.06
+         avg:                                    3.34
+         max:                                 1028.74
+         95th percentile:                        5.77
+         sum:                               120115.01
+
+Threads fairness:
+    events (avg/stddev):           35960.0000/0.00
+    execution time (avg/stddev):   120.1150/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           109564
+        other:                           54782
+        total:                           164346
+    transactions:                        27391  (228.25 per sec.)
+    queries:                             164346 (1369.52 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0014s
+    total number of events:              27391
+
+Latency (ms):
+         min:                                    1.19
+         avg:                                    4.38
+         max:                                 1089.81
+         95th percentile:                        9.22
+         sum:                               119908.21
+
+Threads fairness:
+    events (avg/stddev):           27391.0000/0.00
+    execution time (avg/stddev):   119.9082/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           91808
+        other:                           45904
+        total:                           137712
+    transactions:                        22952  (191.26 per sec.)
+    queries:                             137712 (1147.57 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0021s
+    total number of events:              22952
+
+Latency (ms):
+         min:                                    1.32
+         avg:                                    5.22
+         max:                                 1949.50
+         95th percentile:                       11.45
+         sum:                               119924.12
+
+Threads fairness:
+    events (avg/stddev):           22952.0000/0.00
+    execution time (avg/stddev):   119.9241/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           72836
+        other:                           36418
+        total:                           109254
+    transactions:                        18209  (151.74 per sec.)
+    queries:                             109254 (910.43 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0016s
+    total number of events:              18209
+
+Latency (ms):
+         min:                                    1.44
+         avg:                                    6.59
+         max:                                 2595.20
+         95th percentile:                       16.71
+         sum:                               119941.13
+
+Threads fairness:
+    events (avg/stddev):           18209.0000/0.00
+    execution time (avg/stddev):   119.9411/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           63672
+        other:                           31836
+        total:                           95508
+    transactions:                        15918  (132.64 per sec.)
+    queries:                             95508  (795.87 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0031s
+    total number of events:              15918
+
+Latency (ms):
+         min:                                    1.57
+         avg:                                    7.54
+         max:                                 1432.64
+         95th percentile:                       20.00
+         sum:                               119949.19
+
+Threads fairness:
+    events (avg/stddev):           15918.0000/0.00
+    execution time (avg/stddev):   119.9492/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           61648
+        other:                           30824
+        total:                           92472
+    transactions:                        15412  (128.43 per sec.)
+    queries:                             92472  (770.59 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0008s
+    total number of events:              15412
+
+Latency (ms):
+         min:                                    1.66
+         avg:                                    7.78
+         max:                                 1394.66
+         95th percentile:                       21.50
+         sum:                               119947.90
+
+Threads fairness:
+    events (avg/stddev):           15412.0000/0.00
+    execution time (avg/stddev):   119.9479/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           243224
+        other:                           121612
+        total:                           364836
+    transactions:                        60806  (506.71 per sec.)
+    queries:                             364836 (3040.24 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0010s
+    total number of events:              60806
+
+Latency (ms):
+         min:                                    0.93
+         avg:                                    1.97
+         max:                                   31.50
+         95th percentile:                        3.19
+         sum:                               119854.61
+
+Threads fairness:
+    events (avg/stddev):           60806.0000/0.00
+    execution time (avg/stddev):   119.8546/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           145148
+        other:                           72574
+        total:                           217722
+    transactions:                        36287  (302.39 per sec.)
+    queries:                             217722 (1814.32 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0007s
+    total number of events:              36287
+
+Latency (ms):
+         min:                                    1.08
+         avg:                                    3.30
+         max:                                 1049.42
+         95th percentile:                        5.67
+         sum:                               119879.57
+
+Threads fairness:
+    events (avg/stddev):           36287.0000/0.00
+    execution time (avg/stddev):   119.8796/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           113124
+        other:                           56562
+        total:                           169686
+    transactions:                        28281  (235.67 per sec.)
+    queries:                             169686 (1414.02 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0006s
+    total number of events:              28281
+
+Latency (ms):
+         min:                                    1.18
+         avg:                                    4.24
+         max:                                  691.21
+         95th percentile:                        8.74
+         sum:                               119901.84
+
+Threads fairness:
+    events (avg/stddev):           28281.0000/0.00
+    execution time (avg/stddev):   119.9018/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           87252
+        other:                           43626
+        total:                           130878
+    transactions:                        21813  (181.77 per sec.)
+    queries:                             130878 (1090.60 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0040s
+    total number of events:              21813
+
+Latency (ms):
+         min:                                    1.34
+         avg:                                    5.50
+         max:                                 2551.87
+         95th percentile:                       12.30
+         sum:                               119931.67
+
+Threads fairness:
+    events (avg/stddev):           21813.0000/0.00
+    execution time (avg/stddev):   119.9317/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           74936
+        other:                           37468
+        total:                           112404
+    transactions:                        18734  (156.11 per sec.)
+    queries:                             112404 (936.67 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0023s
+    total number of events:              18734
+
+Latency (ms):
+         min:                                    1.47
+         avg:                                    6.40
+         max:                                 2115.40
+         95th percentile:                       16.12
+         sum:                               119938.36
+
+Threads fairness:
+    events (avg/stddev):           18734.0000/0.00
+    execution time (avg/stddev):   119.9384/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           62808
+        other:                           31404
+        total:                           94212
+    transactions:                        15702  (130.78 per sec.)
+    queries:                             94212  (784.70 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0601s
+    total number of events:              15702
+
+Latency (ms):
+         min:                                    1.57
+         avg:                                    7.64
+         max:                                 1194.76
+         95th percentile:                       20.37
+         sum:                               120007.30
+
+Threads fairness:
+    events (avg/stddev):           15702.0000/0.00
+    execution time (avg/stddev):   120.0073/0.00
+
+sysbench --db-driver=mysql --mysql-host=127.0.0.1 --mysql-port=3306 --mysql-user=root --mysql-password= oltp_write_only run --threads=1 --time=120 --tables=1 --table-size=100000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on --skip_trx=off
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           56572
+        other:                           28286
+        total:                           84858
+    transactions:                        14143  (117.85 per sec.)
+    queries:                             84858  (707.13 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          120.0020s
+    total number of events:              14143
+
+Latency (ms):
+         min:                                    1.67
+         avg:                                    8.48
+         max:                                 1392.85
+         95th percentile:                       23.52
+         sum:                               119954.04
+
+Threads fairness:
+    events (avg/stddev):           14143.0000/0.00
+    execution time (avg/stddev):   119.9540/0.00
+
