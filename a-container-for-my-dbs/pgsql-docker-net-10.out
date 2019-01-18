@@ -1,0 +1,114 @@
+sysbench --db-driver=pgsql --pgsql-host=127.0.0.1 --pgsql-user=postgres --pgsql-password= oltp_read_write --threads=10 --time=1200 run --tables=10 --table-size=1000000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 10
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            20569934
+        write:                           5876988
+        other:                           2938632
+        total:                           29385554
+    transactions:                        1469248 (1224.35 per sec.)
+    queries:                             29385554 (24487.51 per sec.)
+    ignored errors:                      33     (0.03 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          1200.0201s
+    total number of events:              1469248
+
+Latency (ms):
+         min:                                    2.48
+         avg:                                    8.16
+         max:                                 1411.36
+         95th percentile:                       10.65
+         sum:                             11996409.56
+
+Threads fairness:
+    events (avg/stddev):           146924.8000/467.08
+    execution time (avg/stddev):   1199.6410/0.01
+
+sysbench --db-driver=pgsql --pgsql-host=127.0.0.1 --pgsql-user=postgres --pgsql-password= oltp_read_write --threads=10 --time=1200 run --tables=10 --table-size=1000000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 10
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            20665274
+        write:                           5904242
+        other:                           2952240
+        total:                           29521756
+    transactions:                        1476059 (1230.03 per sec.)
+    queries:                             29521756 (24601.02 per sec.)
+    ignored errors:                      32     (0.03 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          1200.0197s
+    total number of events:              1476059
+
+Latency (ms):
+         min:                                    2.68
+         avg:                                    8.13
+         max:                                  959.95
+         95th percentile:                       10.84
+         sum:                             11996276.87
+
+Threads fairness:
+    events (avg/stddev):           147605.9000/173.77
+    execution time (avg/stddev):   1199.6277/0.01
+
+sysbench --db-driver=pgsql --pgsql-host=127.0.0.1 --pgsql-user=postgres --pgsql-password= oltp_read_write --threads=10 --time=1200 run --tables=10 --table-size=1000000 --events=0 --delete_inserts=1 --index_updates=1 --secondary=on
+sysbench 1.0.16 (using system LuaJIT 2.0.5)
+
+Running the test with following options:
+Number of threads: 10
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            20643000
+        write:                           5897887
+        other:                           2949047
+        total:                           29489934
+    transactions:                        1474467 (1228.70 per sec.)
+    queries:                             29489934 (24574.43 per sec.)
+    ignored errors:                      33     (0.03 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          1200.0233s
+    total number of events:              1474467
+
+Latency (ms):
+         min:                                    2.74
+         avg:                                    8.14
+         max:                                  503.97
+         95th percentile:                       10.84
+         sum:                             11996252.62
+
+Threads fairness:
+    events (avg/stddev):           147446.7000/299.73
+    execution time (avg/stddev):   1199.6253/0.01
+

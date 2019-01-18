@@ -1,0 +1,43 @@
+OS: Arch Linux x86_64 
+Host: 20FMS50T0J ThinkPad T460 
+Kernel: 4.19.8-arch1-1-ARCH 
+Packages: 1543 (pacman) 
+Shell: zsh 5.6.2 
+CPU: Intel i5-6300U (4) @ 3.000GHz 
+GPU: Intel Skylake GT2 [HD Graphics 520] 
+Memory: 406MiB / 11414MiB 
+Linux ix 4.19.8-arch1-1-ARCH #1 SMP PREEMPT Sat Dec 8 13:49:11 UTC 2018 x86_64 GNU/Linux
+
+Docker version
+    Client:
+    Version:           18.09.0-ce
+    API version:       1.39
+    Go version:        go1.11.2
+    Git commit:        4d60db472b
+    Built:             Fri Nov  9 00:05:34 2018
+    OS/Arch:           linux/amd64
+    Experimental:      false
+
+    Server:
+    Engine:
+    Version:          18.09.0-ce
+    API version:      1.39 (minimum version 1.12)
+    Go version:       go1.11.2
+    Git commit:       4d60db472b
+    Built:            Fri Nov  9 00:05:11 2018
+    OS/Arch:          linux/amd64
+    Experimental:     false
+
+lxc version: 3.0.3
+
+rkt version:
+    rkt Version: 1.30.0
+    appc Version: 0.8.11
+    Go Version: go1.10.1
+    Go OS/Arch: linux/amd64
+    Features: -TPM +SDJOURNAL
+
+systemd version: 239 +PAM +AUDIT -SELINUX -IMA -APPARMOR +SMACK -SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=hybrid
+
+MariaDB version: 10.3.12-MariaDB-1:10.3.12+maria~bionic-log
+postgresql version: PostgreSQL 11.1 (Debian 11.1-1.pgdg90+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 6.3.0-18+deb9u1) 6.3.0 20170516, 64-bit
