@@ -1,0 +1,9 @@
+HW:
+    AWS EC2: t2.micro
+    Storage: io1 20GB 1000IOPS
+
+Versions:
+    Ubuntu: 10.04 LTS
+    Kernel: Ubuntu 4.15.0-1031-aws #33-Ubuntu SMP Fri Dec 7 09:32:27 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+    Docker version 18.06.1-ce, build e68fc7a
+    fio-3.1

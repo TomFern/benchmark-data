@@ -1,0 +1,24 @@
+fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --filename=random_read_write.fio --bs=16k --iodepth=1 --size=2G --readwrite=randwrite
+
+test: (g=0): rw=randwrite, bs=(R) 16.0KiB-16.0KiB, (W) 16.0KiB-16.0KiB, (T) 16.0KiB-16.0KiB, ioengine=libaio, iodepth=1
+fio-3.1
+Starting 1 process
+test: Laying out IO file (1 file / 2048MiB)
+
+test: (groupid=0, jobs=1): err= 0: pid=18: Wed Jan 30 20:49:39 2019
+  write: IOPS=1026, BW=16.0MiB/s (16.8MB/s)(2048MiB/127664msec)
+   bw (  KiB/s): min=13792, max=23968, per=99.99%, avg=16425.58, stdev=955.18, samples=255
+   iops        : min=  862, max= 1498, avg=1026.55, stdev=59.70, samples=255
+  cpu          : usr=0.43%, sys=2.90%, ctx=131649, majf=0, minf=7
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwt: total=0,131072,0, short=0,0,0, dropped=0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+  WRITE: bw=16.0MiB/s (16.8MB/s), 16.0MiB/s-16.0MiB/s (16.8MB/s-16.8MB/s), io=2048MiB (2147MB), run=127664-127664msec
+
+Disk stats (read/write):
+    dm-1: ios=0/132499, merge=0/0, ticks=0/133628, in_queue=133628, util=98.66%, aggrios=0/131258, aggrmerge=0/1303, aggrticks=0/130440, aggrin_queue=130436, aggrutil=98.63%
+  xvdb: ios=0/131258, merge=0/1303, ticks=0/130440, in_queue=130436, util=98.63%

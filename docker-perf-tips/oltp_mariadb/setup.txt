@@ -1,0 +1,12 @@
+HW:
+
+ OS: Arch Linux 
+ Kernel: x86_64 Linux 4.20.0-arch1-1-ARCH
+ CPU: Intel Core i5-6300U @ 4x 3GHz [41.0°C]
+ RAM: 5523MiB / 11414MiB
+
+Versions:
+
+ MariaDB: 10.3.12-MariaDB-1:10.3.12+maria~bionic-log 
+ Docker version 18.09.0-ce, build 4d60db472b
+ Sysbench 1.0.16
